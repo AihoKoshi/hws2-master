@@ -1,5 +1,7 @@
 .message {
-
+    order: 0;
+    flex: 0 1 auto;
+    align-self: flex-end;
 }
 
 .imageAndText {
@@ -7,11 +9,20 @@
 }
 
 .imageAndText img {
-
+    width: 48px;
+    height: 48px;
+    left: 1162px;
+    top: 204px;
 }
 
 .text {
+    width: 527px;
+    height: 60px;
+    left: 635px;
+    top: 192px;
 
+    background: #0066CC;
+    box-shadow: 0 5px 20px rgba(29, 33, 38, 0.03), 0 1px 2px rgba(29, 33, 38, 0.1);
 }
 
 .text:after {
