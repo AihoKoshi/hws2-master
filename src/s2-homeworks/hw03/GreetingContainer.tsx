@@ -48,6 +48,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
     }
 
     const onEnter = (e: KeyboardEvent<HTMLInputElement>) => {
+        name.length < 1 && setError('Ошибка! Введите имя!')
         pureOnEnter(e, addUser)
     }
 
