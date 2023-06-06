@@ -5,9 +5,9 @@ import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 import SuperButton from './common/c2-SuperButton/SuperButton'
 
 const Stand = () => {
+
     const [stateForAllInputs, setValue] = useState<string>('')
     const [error, setError] = useState<string>('')
-
     const [stateForAllCheckboxes, setChecked] = useState<boolean>(false)
 
     return (
